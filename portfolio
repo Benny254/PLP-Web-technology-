@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Add CSS styling for better presentation */
+        /* For example: */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        nav ul li a:hover {
+            color: #000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my portfolio website!</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>I am a web developer passionate about creating amazing websites and applications.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: <a href="#">Project Description 1</a></li>
+            <li>Project 2: <a href="#">Project Description 2</a></li>
+            <li>Project 3: <a href="#">Project Description 3</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Portfolio</p>
+</footer>
+
+</body>
+</html>
+
